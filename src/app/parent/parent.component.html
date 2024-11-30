@@ -1,0 +1,10 @@
+<div>
+    <h2>Counter: <input type="number" [value]="counter"></h2>
+    
+    <app-counter 
+      [counter]="counter" 
+      (increment)="increment()" 
+      (decrement)="decrement()">
+    </app-counter>
+  </div>
+  
